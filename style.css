@@ -45,9 +45,21 @@ button {
 
 p {
   color: #fff;
-  margin-top: 1em;
+  margin: 1em;
 }
 
 .errado {
-    background-color: red;
+  background-color: red;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.coreto {
+  background-color: green;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.hidden {
+  display: none;
 }
